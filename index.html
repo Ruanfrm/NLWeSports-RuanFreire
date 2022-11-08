@@ -13,9 +13,10 @@
     <title>Meu Perfil | Ruan Freire</title>
 
     <link rel="stylesheet" href="./styles.css" />
+
   </head>
-  <body>
-    
+  <body >
+   
     <header>
       <div>
         <img
@@ -116,6 +117,64 @@
                 />
               </a>
             </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Minhas séries</h2>
+          <p>As séries que mais curto asssitir!</p>
+          <ul class="games-list">
+
+              
+              <li>
+                <a
+                target="_blank"
+                href="https://embed.warezcdn.net/serie/tt4574334"
+              >
+                <img
+                  src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+                  alt="Stranger Things"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                href="https://embed.warezcdn.net/serie/tt0903747"
+              >
+                <img
+                  src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg"
+                  alt="Breaking Bad"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                href="https://embed.warezcdn.net/serie/tt4052886"
+              >
+                <img
+                  src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg"
+                  alt="Lucifer"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+              target="_blank"
+              href="https://embed.warezcdn.net/serie/tt7221388"
+            >
+                <img
+                  src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/m7tG5E1EbywuwTsl6hq990So0Bx.jpg"
+                  alt="Cobra Kai"
+                />
+              </a>
+            </li>
+           
           </ul>
         </div>
       </section>
@@ -276,68 +335,46 @@
         </div>
       </section>
       <section>
-        <div>
+        <div >
           <h2>Me envie uma mensagem.</h2>
-          <p>Preecha todos os campos obrigatórios. (*)</p>
-          <ul>
-            <form name="form-de-contato" action="https://formsubmit.co/06dcf652724da30e35f25d774e7177b0" method="post">
-              <li>
-                <input type="hidden" name="_next" value="https://nlw.ruanfr.online/obrigado.html">
-                <input type="hidden" name="_template" value="box">
-                <input type="hidden" name="_captcha" value="false">
+          <p>Preecha todos os campos.</p>
+          
+          <form name="form-de-contato" action="https://formsubmit.co/06dcf652724da30e35f25d774e7177b0" method="post" >
 
-                <input
-                  type="text"
-                  class="input"
-                  name="nome"
-                  placeholder="Qual seu nome?*"
-                  required
-                />
-              </li>
-              <br />
-              <li>
-                <input
-                  type="text"
-                  class="input"
-                  name="email"
-                  placeholder="Qual seu email?*"
-                  required
-                />
-              </li>
-              <br />
-              <li>
-                <input
-                  type="text"
-                  class="input"
-                  name="subject"
-                  placeholder="Qual o assunto?*"
-                  required
-                />
-              </li>
-              <br />
-              <li>
-                <input
-                  type="text"
-                  class="input"
-                  name="mensage"
-                  placeholder="Digite a mensagem...*"
-                  required
-                />
-              </li>
-              <li>
-                <br /><button class="button" type="submit" name="envio">
-                  Enviar
-                </button>
-              </li>
-              <br />
-              <p>Por favor, não envie mensagens ofensivas.</p>
-            </form>
-          </ul>
+            <input type="hidden" name="_next" value="https://nlw.ruanfr.online/obrigado.html">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Obrigado pela mensagem. Aguarde o meu retorno.">
+
+            <div class="input-group">
+              <label class="label">Qual seu nome?</label>
+              <input autocomplete="on" name="name" id="name" class="input" type="name" required>
+
+              <label class="label">qual seu e-mail</label>
+              <input autocomplete="on" name="Email" id="Email" class="input" type="email" required>
+
+              <label class="label">Qual o assunto?</label>
+              <input autocomplete="on" name="subject" id="subject" class="input" type="subject" required>
+
+              <label class="label">Digite sua mensagem.</label>
+              <input autocomplete="on" name="mensage" id="mensage" class="input" type="mensage" required>
+              
+              <button>
+               Enviar
+              </button>
+
+              <div></div></div>
+
+          </form>
         </div>
       </section>
+    
+      </div>
 <footer>
   <div style="text-align: center;" class="p"><p>&copy Feito por Ruan Freire.</p></div>
 </footer>
+
   </main>
-  </body>
+    
+</body>
 </html>
